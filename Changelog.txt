@@ -1,0 +1,4 @@
+Changelog:
+
+10/4
+- Trying to fetch and make sense of OpenDota API
