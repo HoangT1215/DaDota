@@ -5,4 +5,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-#we can try visualizing stock data
+#we can try visualizing stock datas
+
+def barchart():
+	pass
+
+def linegraph():
+	pass
+
+#visualization discussion
+

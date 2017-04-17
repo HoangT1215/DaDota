@@ -15,7 +15,19 @@ r = requests.get('https://api.opendota.com/api/heroStats')
 *getdata.py
 To do:
 - Create a dataframe on hero winrate
+- Try to customer data through patch
 - Try to create a data visualization
 
+General issues:
+- Try to create data models to further investigate the games
+- Try to learn data visualization in order to have a portfolio
+- Problems with accessing dataframes and how to get access to disconnected data
 
+====================
+Heuristics on what dataviz library to choose
+- Matplotlib is for basic plotting -- bars, pies, lines, scatter plots, etc.
 
+- Seaborn is for statistical visualization -- use it if you're creating heatmaps or somehow summarizing your data and still want to show the distribution of your data
+=> *** suitable for DaDota ***
+
+- Bokeh is for interactive visualization -- if your data is so complex (or you haven't yet found the "message" in your data), then use Bokeh to create interactive visualizations that will allow your viewers to explore the data themselves
