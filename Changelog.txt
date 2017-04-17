@@ -1,4 +1,21 @@
 Changelog:
 
-10/4
+10/04
 - Trying to fetch and make sense of OpenDota API
+
+17/04
+- Learn OpenDota architecture and how to use seaborn. Already installed seaborn.
+- Got the API up and running after asking on discord, the key is to do this:
+
+r = requests.get('https://api.opendota.com/api/heroStats')
+	if r.status_code == 200:
+	    data = r.json()
+	df = pd.io.json.json_normalize(data)
+
+*getdata.py
+To do:
+- Create a dataframe on hero winrate
+- Try to create a data visualization
+
+
+
