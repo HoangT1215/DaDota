@@ -31,3 +31,13 @@ Heuristics on what dataviz library to choose
 => *** suitable for DaDota ***
 
 - Bokeh is for interactive visualization -- if your data is so complex (or you haven't yet found the "message" in your data), then use Bokeh to create interactive visualizations that will allow your viewers to explore the data themselves
+
+18/04
+*getdata.py
+- Customizing pro matches data, trying out seaborn
+- Able to calculate match duration mean by seconds
+
+Issues:
+- the API only fetches the nearest 100 matches, I have to do otherwise to see further than that
+- pro matches don't return lineups
+

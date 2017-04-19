@@ -6,3 +6,16 @@ def support_combo_score():
 
 	pass
 
+def team_pick():
+	#fix team id, scrape the data
+	pass
+
+def team_ban_pick():
+	#mostly concerns with ban/pick order, also ban/pick priority like first ban, first pick, last pick
+	pass
+
+def player_pick(player):
+	pass
+
+def pro_match(id):
+	pass
