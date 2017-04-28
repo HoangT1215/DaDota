@@ -1,3 +1,5 @@
+from __future__ import division
+
 import pandas as pd
 
 import numpy as np
@@ -8,6 +10,8 @@ import seaborn as sns
 import requests
 import json
 import datetime as dt
+
+
 
 patch = '7.05'
 n_hero = 113
@@ -59,26 +63,26 @@ def promatch():
 	return match
 
 def durationmean(data,n):
-	sum = 0
+	s = 0
+	count = 0
 	print data.shape
 	for i in range(n):
-		sum += data[i]['duration']
-	return float(sum/n)
+		s += data[i]['duration']
+	return float(s/n)
 
 def findteam(data,team): #find matches by team name
 	sample = pd.DataFrame()
 	for i in range(data.shape[1]):
-		if (data[i]['radiant_name'] == team) or (data[i]['radiant_name'] == team):
+		if (data[i]['radiant_name'] == team) or (data[i]['dire_name'] == team):
 			sample = sample.append(data[i])
 	return sample
 
 # *** ===== ***
 hero = pd.DataFrame()
 data = promatch()
+print data
 demo = findteam(data = data, team = team_name)
-print demo
+print demo # demo and data are not the same
 
+print durationmean(data, data.shape[0])
 # *** plotting ***
-sns.set_style("darkgrid")
-plt.plot(np.cumsum(np.random.randn(1000,1))) #will try to put customized data set here
-plt.show()

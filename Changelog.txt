@@ -41,3 +41,18 @@ Issues:
 - the API only fetches the nearest 100 matches, I have to do otherwise to see further than that
 - pro matches don't return lineups
 
+19/04
+Explore ways to get more than 100 Dota matches
+https://www.opendota.com/explorer?sql=SELECT%0Amatches.match_id%0AFROM%20matches%0AORDER%20BY%20match_id%20DESC%0AOFFSET%20200%0ALIMIT%20200&format=
+Can we make a list/json file so that we will fetch match data by ID?
+
+24/04
+Kiev major
+Goal:Creating models and portfolio after the major
+Models
+- Midas/item stats
+- Push timing
+- Kill distrib in games
+
+26/04
+Try to parse matches, seems like the variables are not like I expected

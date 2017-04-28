@@ -19,3 +19,6 @@ def player_pick(player):
 
 def pro_match(id):
 	pass
+
+def objectives(): #includes roshan, towers, shrines and timing
+	pass
