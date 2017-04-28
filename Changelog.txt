@@ -65,5 +65,10 @@ d/ Across teams
 e/ Acroos leagues
 
 27/04
-Finished first blood, tower damage model
+*matchparsing.py
+- Finished first blood, tower damage, neutral camp stack, deward model
+- Gotta figure out creep score system
+- Ban/pick needs clean up
+
 Trying fetch multiple match data through fetching a list of match ID
+
