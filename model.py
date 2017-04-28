@@ -1,4 +1,7 @@
 import numpy as np
+import matchparsing
+
+match_id = [3142390443, 3144097046, 3144175535, 3142994571]
 
 def support_combo_score():
 	#we scrape the lineup and evaluate base on three categories: greedy, defensive, aggressive
@@ -22,3 +25,14 @@ def pro_match(id):
 
 def objectives(): #includes roshan, towers, shrines and timing
 	pass
+
+def duration():
+	pass
+
+def firstbloodtime(match_id):
+	s = 0
+	for i in range(len(match_id)):
+		s += matchparsing.first_blood(match_id[i])
+	return s
+
+print firstbloodtime(match_id = match_id)

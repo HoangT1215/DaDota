@@ -35,7 +35,7 @@ Heuristics on what dataviz library to choose
 18/04
 *getdata.py
 - Customizing pro matches data, trying out seaborn
-- Able to calculate match duration mean by seconds
+- Able to calculate match duration mean by seconds (done)
 
 Issues:
 - the API only fetches the nearest 100 matches, I have to do otherwise to see further than that
@@ -56,3 +56,14 @@ Models
 
 26/04
 Try to parse matches, seems like the variables are not like I expected
+
+Plan:
+a/ Match specific (done)
+b/ Across matches
+c/ Across players
+d/ Across teams
+e/ Acroos leagues
+
+27/04
+Finished first blood, tower damage model
+Trying fetch multiple match data through fetching a list of match ID
