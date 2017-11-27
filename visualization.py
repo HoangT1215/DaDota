@@ -8,13 +8,6 @@ import matchparsing
 
 match_id = [3142390443, 3144097046, 3144175535, 3142994571]
 
-#we can try visualizing stock datas
-
-def barchart():
-	pass
-
-def linegraph():
-	pass
 
 #demo visualization for radiant gold advantage
 data = matchparsing.goldadv(3142390443)

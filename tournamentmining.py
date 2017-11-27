@@ -46,14 +46,6 @@ def promatch():
 	match = match.append(df['leagueid'])
 	#print and return
 	return match
-
-def findleague(id_list):
-	for i in range(len(id_list)):
-		#parse match by id
-		if (data['leagueid'] == Kiev_major):
-			match = match.append()
-
-	pass
 	
 def get_ID():
 	r = requests.get(sql)

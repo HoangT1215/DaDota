@@ -136,13 +136,6 @@ def deward_obs(match_id):
 	dw2 = dw2 - dw1
 	return (dw1,dw2)
 
-def item(match_id, item):
-	s = 'https://api.opendota.com/api/matches/' + str(match_id)
-	r = requests.get(s) #send request GET to opendota
-	if r.status_code == 200:
-		data = r.json()
-
-	pass
 
 def banpick(match_id):
 	s = 'https://api.opendota.com/api/matches/' + str(match_id)
